@@ -30,7 +30,7 @@ const MarketPriceDetailScreen = ({ navigation }) => {
         { id: 'lemon', name: 'Chanh', icon: 'water' },
     ];
 
-    const regions = ['all', 'Điện Biên', 'Đắk Lắk', 'Lâm Đồng', 'Gia Lai', 'Đắk Nông'];
+    const regions = ['all', 'Sơn La', 'Đắk Lắk', 'Lâm Đồng', 'Gia Lai', 'Đắk Nông'];
 
     const filteredPrices = marketPrices.filter(p => {
         const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase());

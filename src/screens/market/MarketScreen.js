@@ -27,7 +27,7 @@ const MarketScreen = ({ navigation }) => {
         (selectedRegion === 'all' || p.region === selectedRegion)
     );
 
-    const regions = ['all', 'Điện Biên', 'Đắk Lắk', 'Lâm Đồng', 'Gia Lai', 'Đắk Nông'];
+    const regions = ['all', 'Sơn La', 'Đắk Lắk', 'Lâm Đồng', 'Gia Lai', 'Đắk Nông'];
 
     return (
         <SafeAreaView style={styles.container}>

@@ -72,11 +72,11 @@ export const getCurrentLocation = async () => {
     try {
         const { status } = await Location.requestForegroundPermissionsAsync();
         if (status !== 'granted') {
-            // Default to Điện Biên Phủ if location permission denied
+            // Default to Sơn La if location permission denied
             return {
-                latitude: 21.7203426,
-                longitude: 102.2119891,
-                locationName: 'Điện Biên Phủ'
+                latitude: 21.3020486,
+                longitude: 103.4630366,
+                locationName: 'Sơn La'
             };
         }
 
@@ -105,11 +105,11 @@ export const getCurrentLocation = async () => {
         };
     } catch (error) {
         console.error('Location error:', error);
-        // Default to Điện Biên Phủ
+        // Default to Sơn La
         return {
             latitude: 21.7203426,
             longitude: 102.2119891,
-            locationName: 'Điện Biên Phủ'
+            locationName: 'Sơn La'
         };
     }
 };

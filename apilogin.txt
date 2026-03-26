@@ -112,14 +112,14 @@ response
       "location": {
         "_id": "69634a29bed0a71ba3787526",
         "type": "ward",
-        "name": "Điện Biên Phủ",
+        "name": "Sơn La",
         "longitude": 103.046,
         "latitude": 21.4095
       }
     },
     "location": {
       "_id": "69634a29bed0a71ba3787526",
-      "name": "Điện Biên Phủ",
+      "name": "Sơn La",
       "type": "ward",
       "coordinates": {
         "latitude": 21.4095,
@@ -141,7 +141,7 @@ response
   "data": {
     "location": {
       "_id": "69634a29bed0a71ba3787526",
-      "name": "Điện Biên Phủ",
+      "name": "Sơn La",
       "type": "ward",
       "coordinates": {
         "latitude": 21.4095,

@@ -1,7 +1,7 @@
 // Mock data for Trợ lý AI Nông nghiệp tỉnh Sơn La - Sơn La Province
 // Focus: Xoài (Mango)
 
-// Điện Biên districts
+// Sơn La districts
 export const provinces = [
     {
         "loai": "xã",
